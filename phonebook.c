@@ -35,7 +35,7 @@ void start()
     while (1) 
     {
         print_menu();
-        scanf("%d", &choice);
+        scanf("%d",&choice);
         switch (choice) {
             case 1:
                 list_record();
